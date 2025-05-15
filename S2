@@ -69,7 +69,7 @@ S2#
 
 S2#show interface trunk
 Port        Mode         Encapsulation  Status        Native vlan
-Gig0/1      auto         n-802.1q       trunking      99
+Gig0/1      on           802.1q         trunking      99
 
 Port        Vlans allowed on trunk
 Gig0/1      1-1005
