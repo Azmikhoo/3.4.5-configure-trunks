@@ -56,6 +56,7 @@ S2#
 S2#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
 S2(config)#interface g0/1
+S2(config-if)#switchport mode trunk
 S2(config-if)#switchport trunk native vlan 99
 S2(config-if)#%SPANTREE-2-UNBLOCK_CONSIST_PORT: Unblocking GigabitEthernet0/1 on VLAN0099. Port consistency restored.
 
